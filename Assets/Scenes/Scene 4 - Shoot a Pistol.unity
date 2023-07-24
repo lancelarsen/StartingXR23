@@ -1147,6 +1147,9 @@ MonoBehaviour:
   bullet: {fileID: 1979983483728869410, guid: 71e7163a0953ffe45bdbd86062845aef, type: 3}
   spawnPoint: {fileID: 608296009}
   bulletSpeed: 5
+  pistolFireSound: {fileID: 8300000, guid: 6739c01659ad96d47987f4ddee226b36, type: 3}
+  pistolFireAnimation: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc,
+    type: 3}
 --- !u!1 &608296008
 GameObject:
   m_ObjectHideFlags: 0
