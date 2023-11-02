@@ -11,7 +11,9 @@ public class Target : MonoBehaviour
         if (collision.collider.tag == "bullet")
         {
             //--- Play our animation at the current position
-            Instantiate(hitAnimation, transform.position, transform.rotation);
+            GameObject fireAnimationInstance = 
+                Instantiate(hitAnimation, transform.position, transform.rotation);
+            fireAnimationInstance.transform.localScale = Vector3.one * 0.1f;
 
             //--- Play the audio at the current location
             AudioSource.PlayClipAtPoint(hitAudio,
